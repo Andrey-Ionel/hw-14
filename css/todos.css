@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    width: max-content;
+    padding: 10px;
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.list-item-complete {
+    background-color: rgba(2, 216, 113, 0.7);
+}
+.list-item-incomplete {
+    background-color: rgba(228, 120, 101, 0.85);
+}
+.list-item-complete, .list-item-incomplete {
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.list-item-complete:hover, .list-item-incomplete:hover {
+    box-shadow: 0 3px 5px rgba(127, 160, 165, 0.5);
+}
+.todo-heading {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
